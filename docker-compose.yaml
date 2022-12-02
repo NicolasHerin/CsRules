@@ -1,0 +1,8 @@
+services:
+  php:
+    build:
+      context: .
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/var/www

@@ -1,0 +1,12 @@
+{
+  "name": "teksial/php-cs-rules",
+  "description": "Teksial rules for PHP-CS-Fixer",
+  "require": {
+    "friendsofphp/php-cs-fixer": "^3.13"
+  },
+  "autoload": {
+    "files": [
+      "src/ConfigProvider.php"
+    ]
+  }
+}
